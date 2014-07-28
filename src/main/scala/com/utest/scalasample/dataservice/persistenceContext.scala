@@ -14,5 +14,5 @@ object persistenceContext extends ActivateContext {
     val dialect = mySqlDialect
   }
 
-  override protected def entitiesPackages = List("com.utest.example.model")
+  override protected def entitiesPackages = List("com.utest.scalasample.model")
 }
